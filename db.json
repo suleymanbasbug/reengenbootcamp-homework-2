@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "hotels": [
+    {
+      "id": 0,
+      "name": "First Class Hotel",
+      "price": 450,
+      "imgUrl": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/33/53/335356780.jpeg",
+      "rating": 5,
+      "location": "Alanya",
+      "description": "Standart Odalar 28 m2, Suite Odalar 40 m2, 148 Oda Deniz Manzaralı, 18 Oda Kara Manzaralı, kartlı kapı kilidi, duşakabin , saç kurutma, 162 oda da yerler fayans, 4 oda da yerler halı, suite odalarda arada kapı ve salon, tüm standart odalar 1 french bed+1 single bed+çekyat, balkon, split klima, 102 Led TV, her odada dijital uydu alıcısı, safe box, minibar, direkt telefon, banyoda telefon.",
+      "maxQuota": 5
+    },
+    {
+      "id": 1,
+      "name": "Manaspark Deluxe Hotel",
+      "price": 858,
+      "imgUrl": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/uploadimages/33/77/33772618.jpeg",
+      "rating": 5,
+      "location": "Ölüdeniz",
+      "description": "Otelimiz, Deniz Manzaralı bir konumda olup, otantik mimarisi ahşap ve doğal taş ile doğaya uyum sağlamıştır. Tesisimizde Resepsiyon, Ana Restoran ve Bar Bölümleri, Mini Market ve geniş bahçe alanı bulunmaktadır. Kapalı Ana Restoran, Teras Snack Restoran, Pool Bar ve Garden Bar olarak hizmet verilmektedir. Havuz alanlarımızın, Pool Bar ve Garden Bar bölümlerimizin zeminleri ahşap deck ile döşenmiştir.Gün içinde Soft animasyon ve Gece Showları hizmeti verilen otelde, İnternet hizmeti ücretsiz olarak sağlanmaktadır. Ayrıca belirlenmiş saatlerde tesise ait özel plaja ulaşım hizmeti verilmektedir. Otelimiz bünyesinde 2 adet yüzme havuzu, bulunmaktadır. Sağlık Hizmetleri ücretli olup 24 saat ulaşılabilir durumdadır.Fethiye’nin ölüdeniz bölgesinde bulunan, bir tarafında yamaç paraşütü ile ünlü Baba Dağı ve diğer tarafında dünyaca ünlü ölüdeniz manzarası ile 15,000 m2’lik geniş bir alanda konumlandırılmış ve konuklarına dinlenmenin, eğlencenin keyfini kaliteli hizmet anlayışıyla sunan bir oteldir.",
+      "maxQuota": 7
+    },
+    {
+      "id": 2,
+      "name": "Hotel Alacati Kostem",
+      "price": 2283,
+      "imgUrl": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/uploadimages/30/70/30701446.jpeg",
+      "rating": 3,
+      "location": "Alaçatı",
+      "description": "Alaçatı'nın merkezinde Hacımemiş Mahallesi ve Köşe Kahve'nin çok yakınında konumlanan Köstem Otel özgün taş ve ahşap işçiliğinin en üst seviyesinde yoğun emek ve tecrübenin eseridir. Otelin içerisindeki her detay Dr.Levent Köstem'in antika koleksiyonuna ait özel parçalarla tamamlanarak farklı bir deneyim sunulmuştur.",
+      "maxQuota": 4
+    },
+    {
+      "id": 3,
+      "name": "Ridos Thermal & Spa",
+      "price": 760,
+      "imgUrl": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/uploadimages/46/03/46036196.jpeg",
+      "rating": 4,
+      "location": "Rize",
+      "description": "Ridos Thermal Hotel & Spa ‘Ekşioğlu K Şirketler grubu’nun Turizm faaliyetlerindeki ikinci yatırımıdır. Bir çok alanda faaliyet gösteren şirketimiz turizm konusunda da gerekli atılımları yapmış ve Karadeniz bölgesinde ki yatırımlarına 2008 yılı ağustos ayı itibariyle bir yenisini ekleyerek, Ridos Thermal Hotel & Spa’nın kurulumunu tamamlamıştır. Karadeniz Bölgesinin en büyük termal tesisi olma özelliğini halen elinde bulunduran Ridos Thermal Hotel & Spa bölgenin en büyük markalarından biri olma sorumluluğunun bilincinde olup, kalite ve güven ilkelerinden kesinlikle ödün vermeden işletme hayatına devam etmektedir.Ridos Thermal Hotel & Spa merkezimizde konuklarımızı profesyonel kadromuzla en iyi şekilde ağırlamak, İkizdere’ nin bol oksijenli yemyeşil doğası içinde huzur dolu bir tatil ve dinlenme ortamı sunmak yegane amacımızdır.",
+      "maxQuota": 9
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "hotelId": 0
+    }
+  ]
+}
