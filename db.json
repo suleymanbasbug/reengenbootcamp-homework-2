@@ -62,6 +62,84 @@
     {
       "id": 1,
       "hotelId": 0
+    },
+    {
+      "id": 1635577216814,
+      "hotelId": 1,
+      "customer": [
+        {
+          "id": 0,
+          "name": "Sede",
+          "surname": "sede",
+          "email": "sede@sede.co",
+          "age": "21",
+          "hescode": "2131231231233333",
+          "identityNumber": "21231231233",
+          "phone": "2222222222",
+          "gender": "Male"
+        },
+        {
+          "id": 1,
+          "name": "",
+          "surname": "",
+          "email": "",
+          "age": "",
+          "hescode": "",
+          "identityNumber": "",
+          "phone": "",
+          "gender": ""
+        },
+        {
+          "id": 2,
+          "name": "",
+          "surname": "",
+          "email": "",
+          "age": "",
+          "hescode": "",
+          "identityNumber": "",
+          "phone": "",
+          "gender": ""
+        }
+      ]
+    },
+    {
+      "id": 1635583038303,
+      "hotelId": 1,
+      "customer": [
+        {
+          "id": 0,
+          "name": "sede",
+          "surname": "sede",
+          "email": "sede@sede.co",
+          "age": "21",
+          "hescode": "2312333333333333",
+          "identityNumber": "23123123123",
+          "phone": "1231233232",
+          "gender": "Male"
+        },
+        {
+          "id": 1,
+          "name": "sede",
+          "surname": "sede",
+          "email": "sede@sede.co",
+          "age": "21",
+          "hescode": "2131231231231233",
+          "identityNumber": "12312333333",
+          "phone": "1231231231",
+          "gender": "Male"
+        },
+        {
+          "id": 2,
+          "name": "sedes",
+          "surname": "sede",
+          "email": "sede@sede.co",
+          "age": "21",
+          "hescode": "2131231231233333",
+          "identityNumber": "21312312333",
+          "phone": "1231233333",
+          "gender": "Male"
+        }
+      ]
     }
   ]
 }

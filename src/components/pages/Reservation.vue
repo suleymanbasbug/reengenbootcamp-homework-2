@@ -23,6 +23,7 @@
                 "
                 @input="$v.customers.$each.$iter[customerIndex].name.$touch()"
                 @blur="$v.customers.$each.$iter[customerIndex].name.$touch()"
+                ref="name"
               ></v-text-field>
               <v-text-field
                 v-model="customers[customerIndex].surname"
@@ -166,6 +167,9 @@ export default {
     await this.loadData();
     this.loadingData = true;
   },
+  mounted() {
+    this.setFocus(0);
+  },
   computed: {
     isFormValid() {
       if (this.$v.customers.$each.$iter[this.customerIndex].$invalid) {
@@ -200,10 +204,14 @@ export default {
         this.stepperIndex++;
         this.customerIndex++;
       }
+      this.setFocus(this.customerIndex);
     },
     finished() {
       this.nextStep();
       this.finishReservation = true;
+    },
+    setFocus(index) {
+      setTimeout(() => this.$refs.name[index].focus(), 400);
     },
   },
 };
